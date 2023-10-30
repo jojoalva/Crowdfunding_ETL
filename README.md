@@ -36,7 +36,7 @@ Instructions for setting up Postgres:
         Note- for this, you can either run the query within the 'crowfunding_db_schemas' SQL Source file inside pgAdmin4,
                 or you can do it manually using the pgAdmin 4 documentation on the above website.
 
-        4. Load the 'crowdfund_db_schemas' SQL source file within the 'crowdfunding_db' database you have just created.
+        4. Load the 'crowdfunding_db_schemas' SQL source file within the 'crowdfunding_db' database you have just created.
         This SQL source file can be found in the 'Resources' directory held within this repository.
 
         5. Run the code within the file using the query tool. This will create the tables you require to load your data into.
