@@ -35,6 +35,14 @@ CREATE TABLE "contacts" (
      )
 );
 
+CREATE TABLE "subcategory" (
+    "subcategory_id" VARCHAR   NOT NULL,
+    "subcategory" VARCHAR   NOT NULL,
+    CONSTRAINT "pk_subcategory" PRIMARY KEY (
+        "subcategory_id"
+     )
+);
+
 CREATE TABLE "campaign" (
     "cf_id" INT   NOT NULL,
     "contact_id" INT   NOT NULL,
@@ -52,14 +60,6 @@ CREATE TABLE "campaign" (
     "subcategory_id" VARCHAR   NOT NULL,
     CONSTRAINT "pk_campaign" PRIMARY KEY (
         "cf_id"
-     )
-);
-
-CREATE TABLE "subcategory" (
-    "subcategory_id" VARCHAR   NOT NULL,
-    "subcategory" VARCHAR   NOT NULL,
-    CONSTRAINT "pk_subcategory" PRIMARY KEY (
-        "subcategory_id"
      )
 );
 

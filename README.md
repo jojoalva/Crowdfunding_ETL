@@ -41,8 +41,14 @@ Instructions for setting up Postgres:
 
         5. Run the code within the file using the query tool. This will create the tables you require to load your data into.
 
-        6. Load each csv file into the tables contained with the schema for our 'crowdfunding_db' database.
+        6. Load each csv file into the tables contained with the schema for our 'crowdfunding_db' database, in the order specified below:
+                        1. category table
+                        2. contacts table
+                        3. subcategory table
+                        4. campaign table
+
         Refer to the link above for instructions on how to do this.
+
 
         7. You are now ready to load the 'queries' SQL source file. This is also held in the 'Resources' directory in this repository.
 
