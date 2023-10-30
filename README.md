@@ -1,5 +1,3 @@
-##%%
-
 # Crowdfunding Extract, Transform, Load Project
 Description: This project has been completed to createe an ETL pipeline using Python, Pandas, and Python dictionary methods as well as regular expressions to extract and transform the data.
 
@@ -22,6 +20,9 @@ Instructions for setting up Jupyter Notebook:
 
         6. As you run each cell, by the end of the notebook, you will have created the 4 csv files you require to load into your Postgres database.
 
+
+The Entity Relationship Diagram is within the 'Resources' directory, called 'crowdfunding_db_ERD' for your reference.
+
 Instructions for setting up Postgres:
 
         1. Ensure you have downloaded and installed pgAdmin 4. If not, you can find this at:
@@ -32,8 +33,10 @@ Instructions for setting up Postgres:
         2. Download the 4 csv files in the 'Resources' directory within this repository.
 
         3. Create a database called 'crowdfunding_db' within pgAdmin 4.
+        Note- for this, you can either run the query within the 'crowfunding_db_schemas' SQL Source file inside pgAdmin4,
+                or you can do it manually using the pgAdmin 4 documentation on the above website.
 
-        4. Load the 'table_schemas' SQL source file within the 'crowdfunding_db' database you have just created.
+        4. Load the 'crowdfund_db_schemas' SQL source file within the 'crowdfunding_db' database you have just created.
         This SQL source file can be found in the 'Resources' directory held within this repository.
 
         5. Run the code within the file using the query tool. This will create the tables you require to load your data into.
